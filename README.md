@@ -103,5 +103,5 @@ final result = await TikTokSDK.instance.login(permissions: {
 ```
 
 # Example code
-[example](https://github.com/K9i-0/flutter_tiktok_sdk/tree/main/example)
+[example](https://github.com/cnAlan/tiktok_sdk_v2/tree/master/example)
 
