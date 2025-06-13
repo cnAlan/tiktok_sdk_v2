@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tofinds/tiktok_sdk_v2_example">
+    package="com.tofinds.tiktok_sdk_v2_example">
    <application
         android:label="flutter_tiktok_sdk_example"
         android:name="${applicationName}"

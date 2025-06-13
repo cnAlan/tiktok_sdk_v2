@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:tiktok_sdk_v2/tiktok_sdk_v2.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('com.tofinds/tiktok_sdk_v2');
+  const MethodChannel channel = MethodChannel('com.tofinds.tiktok_sdk_v2');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 

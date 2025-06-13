@@ -2,7 +2,7 @@ part of '../tiktok_sdk_v2.dart';
 
 class TikTokSDK {
   static const MethodChannel _channel =
-      MethodChannel('com.tofinds/tiktok_sdk_v2');
+      MethodChannel('com.tofinds.tiktok_sdk_v2');
 
   /// singleton object of TikTokSDK
   static final TikTokSDK instance = TikTokSDK._();

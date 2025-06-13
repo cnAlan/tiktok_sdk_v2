@@ -29,7 +29,7 @@ class TiktokSdkV2Plugin: FlutterPlugin, MethodCallHandler, ActivityAware, Plugin
   private var loginResult: Result? = null
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "com.tofinds/tiktok_sdk_v2")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "com.tofinds.tiktok_sdk_v2")
     channel.setMethodCallHandler(this)
   }
 

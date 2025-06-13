@@ -43,8 +43,8 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.tofinds/tiktok_sdk_v2_example"
-        minSdkVersion flutter.minSdkVersion
+        applicationId "com.tofinds.tiktok_sdk_v2_example"
+        minSdkVersion 21
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
